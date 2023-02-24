@@ -3,9 +3,11 @@ const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE']
 function ListaHeader() {
     return (
         <ul className='opcoes'>
-            {textoOpcoes.map((texto) =>
-                <li className='opcao'><p>{texto}</p></li>
-            )}
+            {
+                textoOpcoes.map((texto) =>
+                    <li className='opcao'><p>{texto}</p></li>
+                )
+            }
         </ul>
     )
 }
