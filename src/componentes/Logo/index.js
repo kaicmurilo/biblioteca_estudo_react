@@ -3,8 +3,8 @@ import logo2 from '../../imagens/logo.png'
 import styled from 'styled-components';
 
 const LogoContainer = styled.div`
-    display: flex;
-    font-size: 30px;
+display: flex;
+font-size: 30px;
 `
 const ImgContainer = styled.img`
 width: 12%;

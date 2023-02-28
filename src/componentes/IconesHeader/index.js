@@ -9,8 +9,8 @@ align-items: center;
 `
 
 const IconeContainer = styled.li`
-    margin-right: 40px;
-    width: 25px;
+margin-right: 40px;
+width: 25px;
 `
 const icones = [perfil, sacola]
 function IconesHeader() {
